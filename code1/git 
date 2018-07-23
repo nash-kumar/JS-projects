@@ -1,0 +1,31 @@
+git branch (to display on which branch we are working)
+git checkout -b Test_branch(to create a new branch)
+git status(to check the status of what is been changed)
+git commit -m "Message"(file added will be commited)
+git commit -am "Message"(add and will be commited)
+git config user.email "nareshkumar.bn@accionlabs"(to assign ur user name)
+git add .(add all)
+git push/pull()
+git remote -v (to check from whom i've cloned)
+git diff(to shows conflicts/changes made)
+	steps
+		1 - request invite
+		2 - accept invitation
+		3 - clone the repo
+		4 - cd to cloned repo
+		5 - checkout with branch name
+		6 - create a file or add a file 
+		7 - add a file to repo
+		8 - commit
+		9 - push origin branchName
+		10 - provide access
+	Done with pushing a file to freinds repo
+@Source tree(For using with GUI)
+Auto-merge(merge succ)
+Merge-conflict(when we try to merge same line of code)
+git log(updates with commid ID, time, auhtor name)-history
+git log --stat
+git revert commit ID
+git merge branch_name
+git push remote()
+git config --global color.ui
