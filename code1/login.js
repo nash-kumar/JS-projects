@@ -8,9 +8,7 @@ window.onload = function(){
 	if(auth){
 		location.href = 'login.html'
 	}
-	//but.onclick = function(){
-		//console.log('click', name.value, pass.value)
-		
+
 	var isValid = function (){
 		var errName = document.getElementById("validN")
 		var errPass = document.getElementById("validP")
@@ -38,7 +36,9 @@ window.onload = function(){
 	}
 	but.onclick = function(){
 		if(isValid()){
-			alert("Succesful")
+			alert("Succesful");
+			localStorage.setItem('auth', name.value);
+			lacation.href = 'index.html';
 		}
 	}
 	
